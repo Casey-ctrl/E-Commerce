@@ -974,6 +974,9 @@ footer .follow a:hover {
     top: 0;
     left: 0;
 }
+    #navbar.active {
+        right: -5px;
+    }
     h1 {
       font-size: 2.2rem;
     }
@@ -994,9 +997,30 @@ footer .follow a:hover {
     #product1 .pro {
       width: 100%;
     }
+    #product1 h2 {
+    font-size: 3rem;
+}
     #banner {
       height: 40vh;
     }
+    #banner h2 {
+    color: white;
+    font-size: 2rem;
+    padding: 10px 0;
+    }
+    #banner button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.2s ease;
+    background-color: white;
+    cursor: pointer;
+}
+
     #sm-banner .bannerbox {
       height: 40vh;
     }
@@ -1011,6 +1035,7 @@ footer .follow a:hover {
     }
     #newsletter {
       padding: 40px 20px;
+      height: 35vh;
     }
     #newsletter .form{
       width: 100%;
@@ -1027,6 +1052,30 @@ footer .follow a:hover {
    #pro-details .single-pro-details {
     width: 100%;
    }
+   footer .img-logo {
+    margin-bottom: 30px;
+  }
+  footer h4 {
+    font-size: 1.5rem;
+  }
+  footer p,
+  footer a {
+    font-size: 1.1rem;
+  }
+  footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+  }
+  footer .install img {
+    margin: 10px 0px 15px 0px;
+  }
+  footer .follow a:hover {
+    color: #088178;
+  }
+  .copyright p{
+    text-align: center;
+    width: 100%;
+  }
    /* BLOG PAGE */
    #blog {
     padding: 100px 20px 0px 20px;

@@ -1,13 +1,14 @@
-const hambuger = document.getElementsByClassName("hamburger")[0];
-const noHamBurger = document.getElementById("close");
-const navBar = document.getElementById("navbar");
-if(hambuger) {
+document.addEventListener("DomContentLoaded",()=>{
+  const hambuger = document.querySelector(".hamburger");
+const noHamBurger = document.querySelector("#close");
+const navBar = document.querySelector("#navbar");
+if(hambuger && navBar) {
   hambuger.addEventListener("click",()=>{
     navBar.classList.add("active");
   });
  
 }
-if(noHamBurger) {
+if(noHamBurger && navBar) {
     noHamBurger.addEventListener("click", ()=>{
       navBar.classList.remove("active");
     });
@@ -22,4 +23,4 @@ if(noHamBurger) {
           mainImg.src = smallImg[i].src;
         }
       }
-  
+});
